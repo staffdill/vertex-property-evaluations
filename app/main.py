@@ -7,6 +7,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app.config import settings
 from app.database import init_db
+from app.routers import properties
 
 
 @asynccontextmanager
@@ -24,6 +25,8 @@ async def health_check():
     """Return application health status."""
     return {"status": "ok", "version": settings.app_version}
 
+
+app.include_router(properties.router)
 
 # Mount static files LAST so API routes take priority
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
