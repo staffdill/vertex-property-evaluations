@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+
+# Database
+db/
+*.db
+
+# ChromaDB
+data/
+
+# Credentials
+gcp-credentials.json
+.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
