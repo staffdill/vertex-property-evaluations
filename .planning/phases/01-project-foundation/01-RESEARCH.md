@@ -60,7 +60,7 @@ pip freeze > requirements.txt
 ### Recommended Project Structure (Phase 1 scope only)
 
 ```
-wise-evaluations/
+vertex-property-evaulations/
   app/
     __init__.py           # Empty, marks as package
     main.py               # FastAPI app, lifespan, StaticFiles mount, health check
