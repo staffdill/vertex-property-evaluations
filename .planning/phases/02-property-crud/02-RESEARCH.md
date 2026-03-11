@@ -63,7 +63,7 @@ The user instruction adds "file upload logic for property images" to this phase.
 ### Recommended Project Structure (Phase 2 additions)
 
 ```
-vertex-property-evaulations/
+vertex-property-evaluations/
   app/
     __init__.py
     main.py              # Updated: include routers before StaticFiles mount

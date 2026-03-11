@@ -57,7 +57,7 @@ FastAPI (thin router)
 ## Recommended Project Structure
 
 ```
-vertex-property-evaulations/
+vertex-property-evaluations/
   app/
     __init__.py
     main.py              # FastAPI app, lifespan, mount static files, include routers
