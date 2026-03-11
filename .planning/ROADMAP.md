@@ -13,7 +13,7 @@ Wise Evaluations delivers a multimodal property evaluation tool in 9 phases foll
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Project Foundation** - FastAPI skeleton, SQLite schema, project structure, dev server
-- [ ] **Phase 2: Property CRUD** - Property create, list, view, delete with database persistence
+- [x] **Phase 2: Property CRUD** - Property create, list, view, delete with database persistence (completed 2026-03-11)
 - [ ] **Phase 3: File Upload Pipeline** - Signed URL upload to GCS, file validation, asset management
 - [ ] **Phase 4: Embedding Pipeline** - Gemini Embedding 2 integration with ChromaDB vector storage
 - [ ] **Phase 5: Query and Analysis** - Natural language query with vector search and Gemini 2.5 Pro structured evaluation
@@ -169,7 +169,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Foundation | 0/1 | Not started | - |
-| 2. Property CRUD | 1/2 | In Progress|  |
+| 2. Property CRUD | 2/2 | Complete   | 2026-03-11 |
 | 3. File Upload Pipeline | 0/3 | Not started | - |
 | 4. Embedding Pipeline | 0/2 | Not started | - |
 | 5. Query and Analysis | 0/2 | Not started | - |
