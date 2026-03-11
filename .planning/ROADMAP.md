@@ -169,7 +169,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Foundation | 0/1 | Not started | - |
-| 2. Property CRUD | 0/2 | Not started | - |
+| 2. Property CRUD | 1/2 | In Progress|  |
 | 3. File Upload Pipeline | 0/3 | Not started | - |
 | 4. Embedding Pipeline | 0/2 | Not started | - |
 | 5. Query and Analysis | 0/2 | Not started | - |

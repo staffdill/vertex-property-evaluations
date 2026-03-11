@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Property Management
 
-- [ ] **PROP-01**: User can create a property dossier with name and address
-- [ ] **PROP-02**: User can view a list of all properties with file counts and risk badges
-- [ ] **PROP-03**: User can view property details with all associated assets
-- [ ] **PROP-04**: User can delete a property, cascading removal from SQLite, ChromaDB, and GCS
+- [x] **PROP-01**: User can create a property dossier with name and address
+- [x] **PROP-02**: User can view a list of all properties with file counts and risk badges
+- [x] **PROP-03**: User can view property details with all associated assets
+- [x] **PROP-04**: User can delete a property, cascading removal from SQLite, ChromaDB, and GCS
 
 ### File Upload
 
@@ -93,10 +93,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PROP-01 | Phase 2 | Pending |
-| PROP-02 | Phase 2 | Pending |
-| PROP-03 | Phase 2 | Pending |
-| PROP-04 | Phase 2 | Pending |
+| PROP-01 | Phase 2 | Complete |
+| PROP-02 | Phase 2 | Complete |
+| PROP-03 | Phase 2 | Complete |
+| PROP-04 | Phase 2 | Complete |
 | UPLD-01 | Phase 3 | Pending |
 | UPLD-02 | Phase 3 | Pending |
 | UPLD-03 | Phase 3 | Pending |

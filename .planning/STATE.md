@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 01-02-PLAN.md
-last_updated: "2026-03-11T05:57:36.585Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-11T18:57:10.397Z"
 last_activity: 2026-03-11 -- Completed 01-02-PLAN.md (cold start fix + stale artifact cleanup)
 progress:
   total_phases: 9
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
   percent: 100
 ---
 
@@ -50,6 +50,7 @@ Progress: [██████████] 100%
 - Trend: improving
 
 *Updated after each plan completion*
+| Phase 02-property-crud P01 | 10 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,9 @@ Recent decisions affecting current work:
 - [01-01]: WAL mode and foreign keys set per-connection via PRAGMA for safety
 - [01-01]: Test fixtures use monkeypatch on DB_PATH module variable for isolation
 - [Phase 01]: Used *.db glob in .gitignore rather than specific app.db to catch any future stale database files
+- [Phase 02-01]: get_connection() generator wraps get_db() so PRAGMA foreign_keys=ON is always active
+- [Phase 02-01]: risk_badge is NULL in list response (not absent) to avoid breaking Phase 5 consumers
+- [Phase 02-01]: Cascade test uses only client fixture to avoid monkeypatch isolation issues with shared tmp_path
 
 ### Pending Todos
 
@@ -78,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-11T05:57:36.578Z
-Stopped at: Completed 01-02-PLAN.md
+Last session: 2026-03-11T18:56:58.714Z
+Stopped at: Completed 02-01-PLAN.md
 Resume file: None
